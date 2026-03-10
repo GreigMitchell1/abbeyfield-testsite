@@ -1,0 +1,14 @@
+{
+  "name": "abbeyfield-scotland-site",
+  "version": "1.1.0",
+  "description": "Abbeyfield Scotland Charity Website (Node.js + Express + EJS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2"
+  }
+}

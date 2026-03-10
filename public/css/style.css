@@ -1,0 +1,35 @@
+/* ================================
+   Abbeyfield Scotland – Brand System
+   ================================ */
+:root { --brand-navy:#003366; --brand-mid:#1F4E79; --brand-orange:#F05A28; --ink:#1A1A1A; --muted:#374151; --border:#E5E7EB; --surface:#FFFFFF; --surface-2:#F8FAFC; --surface-3:#F3F4F6; --focus:#0EA5E9; --radius:10px; --radius-sm:8px; --container:1100px; --shadow-sm:0 1px 2px rgba(0,0,0,.06); --shadow-md:0 8px 24px rgba(0,0,0,.08); }
+@media (prefers-color-scheme: dark){ :root{ --ink:#E5E7EB; --muted:#9CA3AF; --border:#1F2937; --surface:#0B1220; --surface-2:#0F172A; --surface-3:#111827; --shadow-sm:0 1px 2px rgba(0,0,0,.5); --shadow-md:0 8px 24px rgba(0,0,0,.45);} }
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;color:var(--ink);background:var(--surface-2);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji"}
+.container{max-width:var(--container);margin:0 auto;padding:0 24px}
+.site-header{position:sticky;top:0;z-index:20;background:var(--surface);border-bottom:1px solid var(--border);box-shadow:var(--shadow-sm)}
+.brandbar{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{height:40px;width:auto;display:block}
+.brand .title{font-weight:700;font-size:18px;color:var(--brand-navy)}
+nav a{color:var(--brand-navy);text-decoration:none;margin-left:18px;padding:8px 12px;border-radius:var(--radius-sm)}
+nav a:hover{background:var(--surface-3)} nav a:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.hero{background:linear-gradient(135deg,var(--brand-navy),var(--brand-mid));color:#fff;padding:64px 0}
+.hero .container{display:grid;gap:16px}
+.hero h2{margin:0 0 8px;font-size:32px;line-height:1.2}
+.hero p{margin:0 0 16px;max-width:60ch}
+.btn{display:inline-block;padding:12px 18px;border-radius:var(--radius-sm);text-decoration:none;font-weight:600;transition:transform .02s ease,box-shadow .2s ease}
+.btn:active{transform:translateY(1px)}
+.btn-primary{background:var(--brand-orange);color:#fff;box-shadow:var(--shadow-md)}
+.btn-primary:hover{filter:brightness(1.05)}
+section{padding:40px 0}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow-sm)}
+.grid{display:grid;gap:20px}
+.grid-2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.grid-3{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+ h1,h2,h3{color:var(--brand-navy);line-height:1.25} h1{font-size:28px} h2{font-size:24px} h3{font-size:20px} a{color:var(--brand-mid)} a:hover{color:var(--brand-navy)}
+input[type=password],input[type=text],input[type=email],button{font:inherit}
+input[type=password],input[type=text],input[type=email]{width:100%;padding:10px 12px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--surface);color:var(--ink)}
+button,.btn-inline{background:var(--brand-orange);color:#fff;border:0;padding:10px 16px;border-radius:var(--radius-sm);cursor:pointer}
+button:hover,.btn-inline:hover{filter:brightness(1.05)}
+button:focus-visible,.btn-inline:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+footer{border-top:1px solid var(--border);background:var(--surface);color:var(--muted);padding:28px 0;font-size:14px}
+footer a{color:var(--brand-mid)}
