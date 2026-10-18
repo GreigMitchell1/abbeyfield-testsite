@@ -1,0 +1,52 @@
+<%- include('partials/header') %>
+<section class="section container prose">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/locations">Locations</a> &rsaquo; <span><%= REGIONS[location.region] %></span>
+  </nav>
+
+  <h1><%= location.name %></h1>
+  <p class="badges">
+    <% location.categories.forEach((c) => { %><span class="badge"><%= CATEGORIES[c] %></span><% }) %>
+    <% if (location.vacancies) { %><span class="badge badge-vacancy">Vacancies</span><% } %>
+  </p>
+
+  <div class="detail-grid">
+    <div>
+      <% if (location.summary) { %><p class="summary"><%= location.summary %></p><% } %>
+      <% (location.details || []).forEach((p) => { %><p><%= p %></p><% }) %>
+
+      <% if (location.testimonial) { %>
+        <blockquote>
+          <p>&ldquo;<%= location.testimonial.quote %>&rdquo;</p>
+          <footer>&mdash; <%= location.testimonial.by %></footer>
+        </blockquote>
+      <% } %>
+
+      <% if (!location.summary) { %>
+        <p>Please contact the house for more information about rooms, meals, activities and visiting.</p>
+      <% } %>
+    </div>
+
+    <aside class="card" aria-label="Contact details">
+      <h2>Contact</h2>
+      <address>
+        <%= location.address %><br><%= location.postcode %>
+      </address>
+      <p>
+        <strong>Phone:</strong> <a href="tel:<%= location.phone.replace(/\s+/g, '') %>"><%= location.phone %></a>
+        <% if (location.phoneNote) { %><br><span class="meta"><%= location.phoneNote %></span><% } %>
+      </p>
+      <% if (location.email) { %>
+        <p><strong>Email:</strong> <a href="mailto:<%= location.email %>"><%= location.email %></a></p>
+      <% } %>
+      <p class="meta"><strong>Rooms:</strong> <%= location.rooms %></p>
+      <p class="meta"><strong>Society:</strong> <%= location.society %></p>
+      <% if (related) { %>
+        <p class="meta">Same society: <a href="/locations/<%= related.slug %>"><%= related.name %></a></p>
+      <% } %>
+    </aside>
+  </div>
+
+  <p class="data-note">Vacancy information as at <%= new Date(dataMeta.capturedOn).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) %>. Please contact the house to confirm availability.</p>
+</section>
+<%- include('partials/footer') %>

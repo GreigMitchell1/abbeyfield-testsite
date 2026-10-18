@@ -1,7 +1,55 @@
-<%- include('partials/header', { title: 'Locations' }) %>
-<section>
-  <h2>Our Locations Across Scotland</h2>
+<%- include('partials/header') %>
+<section class="section container">
+  <h1>Our Locations Across Scotland</h1>
   <p>We operate homes and housing across Scotland, each with its own welcoming community and level of support.</p>
-  <div class="card"><strong>Example:</strong> Abbeyfield House (Bearsden) – A Victorian villa near the town centre, offering 10 rooms and one flat.</div>
+
+  <form class="filters card" method="get" action="/locations">
+    <div class="field">
+      <label for="region">Region</label>
+      <select id="region" name="region">
+        <option value="">All regions</option>
+        <% Object.entries(REGIONS).forEach(([key, label]) => { %>
+          <option value="<%= key %>"<%= filters.region === key ? ' selected' : '' %>><%= label %></option>
+        <% }) %>
+      </select>
+    </div>
+    <div class="field">
+      <label for="category">Type of care</label>
+      <select id="category" name="category">
+        <option value="">All types</option>
+        <% Object.entries(CATEGORIES).forEach(([key, label]) => { %>
+          <option value="<%= key %>"<%= filters.category === key ? ' selected' : '' %>><%= label %></option>
+        <% }) %>
+      </select>
+    </div>
+    <div class="field field-check">
+      <label><input type="checkbox" name="vacancies" value="1"<%= filters.vacancies ? ' checked' : '' %>> Vacancies only</label>
+    </div>
+    <div class="field field-actions">
+      <button type="submit">Filter</button>
+      <a href="/locations">Clear</a>
+    </div>
+  </form>
+
+  <p class="result-count" role="status">Showing <%= results.length %> of <%= total %> locations</p>
+
+  <% if (results.length === 0) { %>
+    <div class="card"><p>No locations match those filters. <a href="/locations">Show all locations</a>.</p></div>
+  <% } else { %>
+    <ul class="grid grid-3 card-list">
+      <% results.forEach((l) => { %>
+        <li class="card location-card">
+          <h2><a href="/locations/<%= l.slug %>"><%= l.name %></a></h2>
+          <p class="meta"><%= REGIONS[l.region] %></p>
+          <p class="badges">
+            <% l.categories.forEach((c) => { %><span class="badge"><%= CATEGORIES[c] %></span><% }) %>
+            <% if (l.vacancies) { %><span class="badge badge-vacancy">Vacancies</span><% } %>
+          </p>
+          <p class="meta"><%= l.rooms %> rooms &middot; <a href="tel:<%= l.phone.replace(/\s+/g, '') %>"><%= l.phone %></a></p>
+        </li>
+      <% }) %>
+    </ul>
+  <% } %>
+  <p class="data-note">Vacancy information as at <%= new Date(dataMeta.capturedOn).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) %>. Please contact the house to confirm availability.</p>
 </section>
 <%- include('partials/footer') %>
