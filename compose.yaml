@@ -1,0 +1,16 @@
+# Local container: docker compose up --build
+# Reads MEMBER_PASSWORD and SESSION_SECRET from .env if it exists.
+services:
+  web:
+    build: .
+    ports:
+      - "${PORT:-3000}:3000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      # The app always listens on 3000 inside the container; PORT in .env only changes the host port.
+      PORT: "3000"
+      # Production mode sets Secure cookies, which need HTTPS, so local containers default to development.
+      NODE_ENV: "${NODE_ENV:-development}"
+    restart: unless-stopped

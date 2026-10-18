@@ -1,28 +1,29 @@
-<%- include('partials/header', { title: 'Home' }) %>
+<%- include('partials/header') %>
 <section class="hero">
   <div class="container">
-    <h2>Supporting Older People with Housing, Care &amp; Companionship</h2>
+    <h1>Supporting Older People with Housing, Care &amp; Companionship</h1>
     <p>Warm, supportive communities across Scotland—delivered by a not‑for‑profit charity focused on independence and dignity.</p>
-    <div>
+    <div class="actions">
       <a class="btn btn-primary" href="/services">Explore Services</a>
-      <a class="btn" style="margin-left:8px;background:#fff;color:#003366" href="/locations">Find a Home</a>
+      <a class="btn btn-light" href="/locations">Find a Home</a>
     </div>
   </div>
 </section>
-<section style="padding-top:28px;">
+<section class="section container">
   <div class="grid grid-3">
     <div class="card">
-      <h3>Sheltered Housing</h3>
+      <h2>Sheltered Housing</h2>
       <p>Independent living with the reassurance of support when needed.</p>
     </div>
     <div class="card">
-      <h3>Care &amp; Companionship</h3>
+      <h2>Care &amp; Companionship</h2>
       <p>Shared meals, friendship and a welcoming community.</p>
     </div>
     <div class="card">
-      <h3>24‑Hour Care (Selected Homes)</h3>
+      <h2>24‑Hour Care (Selected Homes)</h2>
       <p>Compassionate, regulated care tailored to residents’ needs.</p>
     </div>
   </div>
+  <p class="lead-link"><a href="/locations?vacancies=1">See locations with current vacancies &rarr;</a></p>
 </section>
 <%- include('partials/footer') %>

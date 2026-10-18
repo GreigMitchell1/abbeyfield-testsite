@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "capturedOn": "2026-10-18",
+    "source": "https://www.abbeyfield-in-scotland.org.uk/",
+    "note": "Extracted from the current site. Room counts and vacancy flags need confirming with each society before launch."
+  },
+  "locations": [
+    {
+      "id": 3,
+      "slug": "eskdale-aberfeldy",
+      "name": "Eskdale, Aberfeldy",
+      "society": "Breadalbane",
+      "town": "Aberfeldy",
+      "region": "north",
+      "categories": [
+        "sheltered-housing"
+      ],
+      "rooms": 8,
+      "vacancies": false,
+      "address": "Taybridge Road, Aberfeldy, Perthshire",
+      "postcode": "PH15 2BH",
+      "phone": "01887 820606",
+      "email": null,
+      "summary": "Eskdale is situated in the small town of Aberfeldy in the beautiful Tay Valley in Highland Perthshire. It is within easy walking distance of shops, Post Office, Cinema, Health Centre etc.",
+      "details": [
+        "We offer 7 bedsitting rooms and 1 suite. There is a communal lounge/dining area and conservatory and attractive garden.",
+        "A beautiful house built in 1880 and situated in the popular market town of Aberfeldy.",
+        "Eskdale has seven bedsitting rooms and one suite comprising a bedroom and separate lounge. Four rooms on the ground floor and four on the first floor. There is a stair-lift. All rooms have a mini-kitchen including a small refrigerator and ensuite bath/shower room. There is a communal lounge/dining room and conservatory on the ground floor. There is a residents' garden and also parking facilities.",
+        "Two nutritious home-cooked meals are provided daily at regular times in the dining room and morning coffee is served in the lounge or conservatory.",
+        "The house has its own overall security, including 24 telecare service and a door entry system. A laundry service and a room-cleaning service are also provided.",
+        "Residents can furnish and decorate their rooms to reflect their taste and can come and go as they please and entertain visitors at any time.",
+        "Regular activities, such as a weekly games morning, are arranged, as well as other social events from time to time.",
+        "For enquiries about vacancies please contact our Admissions Secretary on 01887 820944."
+      ],
+      "phoneNote": "Admissions Secretary: 01887 820944"
+    },
+    {
+      "id": 15,
+      "slug": "abbeyfield-house-ballachulish",
+      "name": "Abbeyfield House, Ballachulish",
+      "society": "Ballachulish",
+      "town": "Ballachulish",
+      "region": "north",
+      "categories": [
+        "care-home",
+        "nursing-care"
+      ],
+      "rooms": 35,
+      "vacancies": false,
+      "address": "Park Road, Ballachulish, Highland",
+      "postcode": "PH49 4JS",
+      "phone": "01855 812950",
+      "email": null
+    },
+    {
+      "id": 36,
+      "slug": "abbeyfield-house-kingussie",
+      "name": "Abbeyfield House, Kingussie",
+      "society": "Strathspey",
+      "town": "Kingussie",
+      "region": "north",
+      "categories": [
+        "sheltered-housing"
+      ],
+      "rooms": 8,
+      "vacancies": true,
+      "address": "1 Spey Street, Kingussie, Highland",
+      "postcode": "PH21 1EH",
+      "phone": "01540 661216",
+      "email": null
+    },
+    {
+      "id": 1,
+      "slug": "sunnybrae-pitlochry",
+      "name": "Sunnybrae, Pitlochry",
+      "society": "Atholl",
+      "town": "Pitlochry",
+      "region": "north",
+      "categories": [
+        "sheltered-housing"
+      ],
+      "rooms": 8,
+      "vacancies": false,
+      "address": "158 Atholl Road, Pitlochry, Perthshire",
+      "postcode": "PH16 5AR",
+      "phone": "01796 472492",
+      "email": null
+    },
+    {
+      "id": 17,
+      "slug": "abbeyfield-house-kirkcaldy",
+      "name": "Abbeyfield House, Kirkcaldy",
+      "society": "Kirkcaldy",
+      "town": "Kirkcaldy",
+      "region": "east",
+      "categories": [
+        "care-home",
+        "other"
+      ],
+      "rooms": 29,
+      "vacancies": false,
+      "address": "55 Meldrum Road, Kirkcaldy, Fife",
+      "postcode": "KY2 5HY",
+      "phone": "01592 205491",
+      "email": "kdyabbeyadm@aol.com",
+      "summary": "Abbeyfield House is a beautiful Victorian property with a modern extension providing care for older people in 29 rooms, 14 of which are en-suite. Two of our larger rooms can accommodate a couple if required.",
+      "details": [
+        "Our “Abbey Cottage” Day Centre offers care to up to twelve people per day. We also provide a dementia support service.",
+        "Our Care Home, Abbeyfield House, situated in a residential part of Kirkcaldy, has two pleasant dining rooms and comfortable lounges, one overlooking the attractive well-tended gardens. This gives a wonderful space for living and socialising or sitting outside, weather permitting. The garden houses a summer house, greenhouse and various seating areas and our gardeners are always glad of a bit of extra help!",
+        "Our fully trained care staff provide 24 hour care, seven days a week, while all staff are here as part of the team to meet our residents' needs. Food is prepared by our own chefs and choices of meals are available on a daily basis. We have minibuses that take residents on outings to local places of interest or events and sometimes further afield for short holidays.",
+        "Our “Abbey Cottage” Day Centre is a purpose designed bungalow with a lovely sitting room, conservatory, a fully equipped bathroom for assisted bathing and fully adapted toilets. The kitchen provides re-enablement facilities for people to practice the skills they need at home. Our enclosed garden provides an additional facility for activities and relaxation.",
+        "We also provide specialised dementia support, both in the care home itself and on a day basis including providing advice and support to families/carers.",
+        "For full information brochures on all our services please contact our Administrator on 01592 205491 or email kdyabbeyadm@aol.com."
+      ],
+      "extraService": "Abbey Cottage Day Centre and dementia support service"
+    },
+    {
+      "id": 9,
+      "slug": "tullis-house-monifieth",
+      "name": "Tullis House, Monifieth",
+      "society": "Monifieth",
+      "town": "Monifieth",
+      "region": "east",
+      "categories": [
+        "sheltered-housing"
+      ],
+      "rooms": 12,
+      "vacancies": true,
+      "address": "6/8 Maule Street, Monifieth, Angus",
+      "postcode": "DD5 4JN",
+      "phone": "01382 535298",
+      "email": null,
+      "summary": "Tullis House was purpose built in 1990, to provide supported accommodation for twelve older people. We have ten very comfortable single rooms and one double, all with modern en suite shower facilities. There is a pleasant respite/guest room which is available for a stay of up to one month.",
+      "details": [
+        "The House is located within easy reach of the local shops in the centre of Monifieth, with regular and frequent buses to Dundee and Arbroath.",
+        "The House is constructed over two floors with lift access.",
+        "All rooms have ensuite showers, and disabled bathing and shower facilities are also available.",
+        "Tullis House has three small well equipped kitchens for residents to make their own breakfast at a time that suits them. Two delicious and nutritious home-cooked meals are served every day in the spacious communal lounge/dining room. The room has comfy armchairs and settees for relaxing or socialising.",
+        "The House has a 24 hour alarm system and door entry system, all residents' rooms and communal areas have pull cards for use in an emergency.",
+        "Our location is close to the local Churches of various denominations, and the local Medical Health Centre."
+      ]
+    },
+    {
+      "id": 18,
+      "slug": "viewlands-house-perth",
+      "name": "Viewlands House, Perth",
+      "society": "Perth",
+      "town": "Perth",
+      "region": "east",
+      "categories": [
+        "care-home",
+        "nursing-care",
+        "other"
+      ],
+      "rooms": 32,
+      "vacancies": false,
+      "address": "25 Viewlands Road, Perth, Perth & Kinross",
+      "postcode": "PH1 1BL",
+      "phone": "01738 639841",
+      "email": null
+    },
+    {
+      "id": 13,
+      "slug": "abbeyfield-house-stirling",
+      "name": "Abbeyfield House, Stirling",
+      "society": "Stirling",
+      "town": "Stirling",
+      "region": "east",
+      "categories": [
+        "sheltered-housing"
+      ],
+      "rooms": 11,
+      "vacancies": false,
+      "address": "17 Allan Park, Stirling, Stirlingshire",
+      "postcode": "FK8 3QG",
+      "phone": "01786 478772",
+      "email": null,
+      "summary": "Our house is very homely where our staff and the volunteers always put the residents first to ensure they feel that our house is their home.",
+      "details": [],
+      "testimonial": {
+        "quote": "Abbeyfield has a homely atmosphere engendered by the manager and staff who are considerate, respectful and friendly. The cuisine is excellent, and individual tastes are catered for. In the eventide of my life I am grateful that “my lines have fallen in pleasant places”",
+        "by": "A resident, 2017"
+      }
+    },
+    {
+      "id": 2,
+      "slug": "abbeyfield-house-bearsden",
+      "name": "Abbeyfield House, Bearsden",
+      "society": "Bearsden",
+      "town": "Bearsden",
+      "region": "west",
+      "categories": [
+        "sheltered-housing"
+      ],
+      "rooms": 10,
+      "vacancies": true,
+      "address": "16 Grange Road, Bearsden, Glasgow",
+      "postcode": "G61 3PL",
+      "phone": "0141 942 8014",
+      "email": null
+    },
+    {
+      "id": 19,
+      "slug": "campbell-snowdon-house-bridge-of-weir",
+      "name": "Campbell Snowdon House, Bridge of Weir",
+      "society": "Strathgryffe",
+      "town": "Bridge of Weir",
+      "region": "west",
+      "categories": [
+        "care-home"
+      ],
+      "rooms": 25,
+      "vacancies": false,
+      "address": "Quarriers Village, Bridge of Weir, Inverclyde",
+      "postcode": "PA11 3SX",
+      "phone": "01505 614350",
+      "email": null
+    },
+    {
+      "id": 35,
+      "slug": "bothwell-castle-douglas",
+      "name": "Bothwell, Castle Douglas",
+      "society": "Stewartry of Kirkcudbright",
+      "town": "Castle Douglas",
+      "region": "west",
+      "categories": [
+        "sheltered-housing"
+      ],
+      "rooms": 12,
+      "vacancies": false,
+      "address": "72 St Andrews Street, Castle Douglas, Dumfries & Galloway",
+      "postcode": "DG7 1EN",
+      "phone": "01556 502271",
+      "email": null,
+      "related": "strathdee-kirkcudbright"
+    },
+    {
+      "id": 7,
+      "slug": "barclay-smith-house-helensburgh",
+      "name": "Barclay Smith House, Helensburgh",
+      "society": "Helensburgh",
+      "town": "Helensburgh",
+      "region": "west",
+      "categories": [
+        "sheltered-housing"
+      ],
+      "rooms": 10,
+      "vacancies": false,
+      "address": "54 West King Street, Helensburgh, Dumbartonshire",
+      "postcode": "G84 8ED",
+      "phone": "01436 674998",
+      "email": null,
+      "summary": "Helensburgh is a lovely seaside town by the River Clyde with good train and bus links to Glasgow, Edinburgh and the Highlands. Abbeyfield is very central being near to the shops, the cinema, the promenade and is across the street from the library.",
+      "details": [
+        "We have 9 apartments of varying size offering 4 two roomed ensuite apartments and 5 ensuite bedsits.",
+        "These are unfurnished and so residents may bring their own furniture and decorate it to their own taste having their familiar possessions around them."
+      ],
+      "testimonial": {
+        "quote": "Stress free living",
+        "by": "A resident"
+      }
+    },
+    {
+      "id": 16,
+      "slug": "abbeyfield-house-irvine",
+      "name": "Abbeyfield House, Irvine",
+      "society": "Irvine",
+      "town": "Irvine",
+      "region": "west",
+      "categories": [
+        "care-home"
+      ],
+      "rooms": 26,
+      "vacancies": false,
+      "address": "1 Kilwinning Road, Irvine, North Ayrshire",
+      "postcode": "KA12 8RR",
+      "phone": "01294 279019",
+      "email": null
+    },
+    {
+      "id": 12,
+      "slug": "strathdee-kirkcudbright",
+      "name": "Strathdee, Kirkcudbright",
+      "society": "Stewartry of Kirkcudbright",
+      "town": "Kirkcudbright",
+      "region": "west",
+      "categories": [
+        "sheltered-housing"
+      ],
+      "rooms": 9,
+      "vacancies": false,
+      "address": "94 Mary Street, Kirkcudbright, Dumfries & Galloway",
+      "postcode": "DG6 4EJ",
+      "phone": "01557 330593",
+      "email": null,
+      "related": "bothwell-castle-douglas"
+    },
+    {
+      "id": 11,
+      "slug": "abbeyfield-rutherglen",
+      "name": "Abbeyfield Rutherglen",
+      "society": "Rutherglen",
+      "town": "Rutherglen",
+      "region": "west",
+      "categories": [
+        "care-home",
+        "nursing-care",
+        "sheltered-housing"
+      ],
+      "rooms": 41,
+      "vacancies": false,
+      "address": "78 Stonelaw Drive, Rutherglen, Glasgow",
+      "postcode": "G73 3NZ",
+      "phone": "0141 647 8311",
+      "email": null,
+      "summary": "Clients receive the highest standard of care whilst maintaining a warm and relaxing atmosphere in which clients can feel safe and secure and help them maintain their independence, but to promote their rights as citizens as well as achieve their potential.",
+      "details": [
+        "We are located in a quiet residential area of Rutherglen and comprise three purpose built houses sited within large well maintained gardens.",
+        "McMillan House is a support house and Extra Care and Templeton Houses are nursing and residential.",
+        "McMillan House can accommodate 8 residents, in bright and airy rooms all with en-suite facilities. All residents have access to an alert system with a responder provided through South Lanarkshire Council. Residents prepare their own breakfast, both lunch and evening meals are made and served by the cook in our dining room. Residents are encouraged to make full use of the lounge area to chat to other residents and to entertain their guests.",
+        "Templeton House is a small warm and friendly house with 11 rooms, all have en-suite facilities with wet room showers.",
+        "Extra Care House can accommodate 19 clients, 7 of those rooms have been refurbished and now have en suite facilities with wet floor showers.",
+        "Clients in Extra Care and Templeton Houses receive assistance in all aspects of personal/nursing care. All meals are home-made and served in lounge. Mid-morning tea & coffee is served with biscuits and home baking."
+      ]
+    },
+    {
+      "id": 14,
+      "slug": "abbeyfield-house-strathaven",
+      "name": "Abbeyfield House, Strathaven",
+      "society": "Strathaven",
+      "town": "Strathaven",
+      "region": "west",
+      "categories": [
+        "sheltered-housing"
+      ],
+      "rooms": 10,
+      "vacancies": false,
+      "address": "1-3 Station Road, Strathaven, Lanarkshire",
+      "postcode": "ML10 6BE",
+      "phone": "01357 522190",
+      "email": null
+    }
+  ]
+}

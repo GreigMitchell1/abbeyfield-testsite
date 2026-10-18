@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title><%= typeof title !== 'undefined' ? title + ' | ' : '' %>Abbeyfield Scotland</title>
+  <title><%= title ? title + ' | ' : '' %><%= siteName %></title>
+  <meta name="description" content="<%= description %>" />
+  <% if (noindex) { %><meta name="robots" content="noindex, nofollow" /><% } %>
   <meta name="theme-color" content="#003366" />
+  <meta name="color-scheme" content="light dark" />
   <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body>
-  <header class="site-header" role="banner">
+  <a class="skip-link" href="#content">Skip to main content</a>
+  <header class="site-header">
     <div class="container brandbar">
       <a class="brand" href="/">
-        <img src="/images/animated_logo.gif" alt="Abbeyfield in Scotland animated logo" />
-        <span class="title">Abbeyfield in Scotland</span>
+        <% if (hasLogo) { %><img src="/images/animated_logo.gif" alt="" height="40" /><% } %>
+        <span class="title"><%= siteName %></span>
       </a>
       <nav aria-label="Primary">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/services">Services</a>
-        <a href="/locations">Locations</a>
-        <a href="/contact">Contact</a>
-        <a href="/members">Members</a>
+        <% nav.forEach((item) => {
+             const active = item.href === '/' ? currentPath === '/' : currentPath.startsWith(item.href); %>
+          <a href="<%= item.href %>"<% if (active) { %> aria-current="page"<% } %>><%= item.label %></a>
+        <% }) %>
       </nav>
     </div>
   </header>
-  <main class="container" id="content">
+  <main id="content">
